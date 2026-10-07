@@ -1,0 +1,57 @@
+# Symbols no library, runtime or megatouch-host provides (2026-10-07)
+# megatouch-host loads the game with RTLD_NOW, so each of these must be defined
+# (usually in src/host/loader_services.cpp) before the game will start.
+# symbol | needed by
+CardG | zip21.so
+LinkShowDeckSetting | zip21.so
+NetGlob | zip21.so
+Card_PollLinks() | zip21.so
+Card_LinkWaitForAll(unsigned long) | zip21.so
+GetMyId() | zip21.so
+QueFlush(bool) | zip21.so
+NetGlobals::GetLeaderScore() | zip21.so
+NetGlobals::GetRank(unsigned char) | zip21.so
+TextSystem::LoadTranslations(xml_gameinfo::GameIds) | zip21.so
+TextSystem::GetSpriteChannels(char const*, unsigned char**, unsigned char**, int, int, bool, bool, int, float) | zip21.so
+TextSystem::SetTextDescription(TextDesc const&) | zip21.so
+Translator::nTranslate(char*, unsigned int, char const*) | zip21.so
+WorldClass::LoadBmp(char const*, int, float, int, int, bool, bool, Bitmap*) | zip21.so
+WorldClass::SetBack(char const*, int) | zip21.so
+WorldClass::PlayMovie(int, unsigned long, void (*)(unsigned char), unsigned char, bool, bool, bool, bool) | zip21.so
+WorldClass::WorldClass() | zip21.so
+List::Push(Group*) | zip21.so
+List::Clear(unsigned char) | zip21.so
+List::List(List*) | zip21.so
+ListT<EventO>::UnLinkAndAdvance() | zip21.so
+ListT<EventO>::ListT(List*) | zip21.so
+ListT<EventO>::~ListT() | zip21.so
+Bitmap::TTFtoCData(unsigned char*, unsigned char*, int, int) | zip21.so
+Bitmap::NextAnim() | zip21.so
+Colour::black | zip21.so
+Colour::white | zip21.so
+Sprite::DoNextFrame() | zip21.so
+Sprite::SpriteClick() | zip21.so
+Sprite::EffectOutline(int, unsigned char, unsigned char, unsigned char, bool) | zip21.so
+Sprite::Move(float, float, float, float, float, float, unsigned long, unsigned long, unsigned char) | zip21.so
+Sprite::Curve(int, int, int, int, int, int, int, int, int, int, int, int, unsigned long, unsigned long, unsigned char) | zip21.so
+Sprite::Reset() | zip21.so
+Sprite::DoDraw() | zip21.so
+Sprite::Enable(unsigned long) | zip21.so
+Sprite::FadeIn(unsigned long, unsigned long, int, int) | zip21.so
+Sprite::SetBmp(Bitmap*, unsigned long) | zip21.so
+Sprite::Signal(Group::SpriteSignalType) | zip21.so
+Sprite::Signal(SpriteSignal*) | zip21.so
+Sprite::Disable(unsigned long, bool) | zip21.so
+Sprite::FadeOut(unsigned long, unsigned long, int, int) | zip21.so
+Sprite::Message(Group::SpriteSignalType) | zip21.so
+Sprite::Message(SpriteSignal*) | zip21.so
+Sprite::RunAnim(Bitmap*, int, int, int, unsigned long, float, unsigned long, int) | zip21.so
+Sprite::SetCord(float, float, float, unsigned long) | zip21.so
+Sprite::SetSize(int, int) | zip21.so
+Sprite::DoCommand(int) | zip21.so
+Sprite::Sprite(Bitmap*, unsigned long, Sprite*) | zip21.so
+Sprite::~Sprite() | zip21.so
+TextDesc::SetFontName(char const*) | zip21.so
+TextUtils::ConvertToMarkup(char const*) | zip21.so
+typeinfo for Sprite | zip21.so
+vtable for DOSLinuxWorld | zip21.so
