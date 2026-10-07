@@ -2,8 +2,3 @@
 # megatouch-host loads the game with RTLD_NOW, so each of these must be defined
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
-TextSystem::GetSpriteChannels(char const*, unsigned char**, unsigned char**, int, int, bool, bool, int, float) | zip21.so
-TextSystem::SetTextDescription(TextDesc const&) | zip21.so
-Colour::black | zip21.so
-Colour::white | zip21.so
-TextDesc::SetFontName(char const*) | zip21.so
