@@ -1,6 +1,6 @@
 # ZIP21 (zip21)
 
-Status: scaffolded 2026-10-07. Facts: [notes/scaffold.md](notes/scaffold.md).
+Status: runs on the reconstructed legacy engine (batch smoke test 2026-10-07: renders, takes touches). Hand play-test pending.
 
 ## Checklist
 - [ ] Window size in game.conf matches the largest PNG (notes/scaffold.md)
@@ -15,3 +15,5 @@ Status: scaffolded 2026-10-07. Facts: [notes/scaffold.md](notes/scaffold.md).
 
 ## Log
 <!-- dated notes: what broke, what fixed it -->
+
+- 2026-10-07 — runs on src/legacy (sprite engine, gendef records, Allegro subset); smoke-tested headless.
